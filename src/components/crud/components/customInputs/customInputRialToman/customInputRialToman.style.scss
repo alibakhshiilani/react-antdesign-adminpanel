@@ -1,0 +1,18 @@
+.basePrice-input-style {
+  .ant-input-number-input-wrap {
+    position: relative;
+    display: inline-block;
+    height: 1.75rem;
+    width: 100%;
+    margin: 5px 2px 0 0;
+  }
+
+  .ant-input-number-input-wrap::after {
+    content: "تومان";
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 1.75rem;
+    transform: translateY(-50%);
+  }
+}
